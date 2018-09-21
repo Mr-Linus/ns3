@@ -95,3 +95,8 @@ At time 2.00369s server sent 1024 bytes to 10.1.1.1 port 49153
 At time 2.00737s client received 1024 bytes from 10.1.1.2 port 9
 ```
 
+
+
+### 疑难解答
+
+Ubuntu 安装的整个过程必须使用 root 用户 ，更多内容详见 [官方安装教程](https://www.nsnam.org/wiki/Installation)。
