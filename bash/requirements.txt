@@ -1,0 +1,2 @@
+pybindgen==0.17.0
+pygccxml==1.9.1
