@@ -13,7 +13,7 @@ apt-get install -y doxygen graphviz imagemagick
 apt-get install -y texlive texlive-extra-utils texlive-latex-extra texlive-font-utils texlive-lang-portuguese dvipng
 apt-get install -y python-sphinx dia 
 apt-get install -y gsl-bin libgsl2 libgsl-dev
-apt-get install -y flex bison libfl-dev
+apt-get install -y flex bison libfl-dev python-pip
 apt-get install -y tcpdump
 apt-get install -y sqlite sqlite3 libsqlite3-dev
 apt-get install -y libxml2 libxml2-dev

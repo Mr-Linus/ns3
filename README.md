@@ -7,6 +7,8 @@
 - Docker 安装
 - Ubuntu 安装
 
+NS-3 安装版本：3.28
+
 ### Docker 安装
 
 手写根据官方文档在你的本机或虚拟机上安装Docker，安装流程请参考 [Docker 安装流程](https://note.geekfan.top/2018/06/15/Docker-faq/#%E5%AE%89%E8%A3%85%E3%80%81%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98-8)。
@@ -26,7 +28,7 @@ docker run -it  registry.cn-hangzhou.aliyuncs.com/geekcloud/ns3:latest /bin/bash
 测试 NS3 容器是否运行成功：
 
 ```bash
-cd source/ns-3.28 && ./waf --pyrun examples/tutorial/first.py
+cd /source/ns-3.28 && ./waf --pyrun examples/tutorial/first.py
 ```
 
 如果你看见如下输出，则说明你已经成功运行 NS3：
