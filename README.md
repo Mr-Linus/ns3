@@ -61,7 +61,7 @@ git clone https://github.com/Mr-Linus/ns3.git
 进入脚本目录：
 
 ```bash
-cd bash
+cd ns3/bash
 ```
 
 安装 NS3 环境依赖：
