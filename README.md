@@ -48,6 +48,8 @@ At time 2.00737s client received 1024 bytes from 10.1.1.2 port 9
 
 ### Ubuntu 安装
 
+#### 系统版本： 16.04
+
 如果你的机器或虚拟机上已经安装Ubuntu系统你不妨试试此安装方法。
 
 首先将本项目克隆到本地：
