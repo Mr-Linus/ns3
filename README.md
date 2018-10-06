@@ -25,6 +25,8 @@ docker pull registry.cn-hangzhou.aliyuncs.com/geekcloud/ns3:latest
 docker run -it  registry.cn-hangzhou.aliyuncs.com/geekcloud/ns3:latest /bin/bash
 ```
 
+此时 NS3 已经在当前目录的`source`目录的`ns-3.28`下。
+
 测试 NS3 容器是否运行成功：
 
 ```bash
@@ -48,7 +50,9 @@ At time 2.00737s client received 1024 bytes from 10.1.1.2 port 9
 
 ### Ubuntu 安装
 
-#### 系统版本： 16.04
+#### Ubuntu系统版本： 16.04
+
+#### NS-3 版本：3.28
 
 如果你的机器或虚拟机上已经安装Ubuntu系统你不妨试试此安装方法。
 
@@ -78,7 +82,7 @@ chmod 755 * && ./install-ns-3-env.sh
 ./install-ns-3.sh
 ```
 
-这个过程也会相当漫长，当你看见最后输出的 Building ns3 ==> OK 时说明你已经成功安装 NS3 。
+这个过程也会相当漫长，当你看见最后输出的 Building ns3 ==> OK 时说明你已经成功安装 NS3 ，此时 NS3 已经在当前目录的`source`目录的`ns-3.28`下。
 
 测试 NS3：
 
