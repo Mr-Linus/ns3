@@ -56,6 +56,12 @@ At time 2.00737s client received 1024 bytes from 10.1.1.2 port 9
 
 如果你的机器或虚拟机上已经安装Ubuntu系统你不妨试试此安装方法。
 
+在执行之前请确保你是root用户，如果不是，请执行下面的命令：
+
+```bash
+sudo su -
+```
+
 首先将本项目克隆到本地：
 
 ```bash
