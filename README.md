@@ -13,6 +13,8 @@ NS-3 安装版本：3.28
 
 首先根据官方文档在你的本机或虚拟机上安装Docker，安装流程请参考 [Docker 安装流程](https://note.geekfan.top/2018/06/15/Docker-faq/#%E5%AE%89%E8%A3%85%E3%80%81%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98-8)。
 
+> 注意： 这里Docker 必须安装docker-ce ，老版本 docker.io 不再提供支持
+
 安装完 Docker 的同学可以直接在终端运行以下命令拉取镜像：
 
 ```bash
@@ -50,7 +52,9 @@ At time 2.00737s client received 1024 bytes from 10.1.1.2 port 9
 
 ### Ubuntu 安装
 
-#### Ubuntu系统版本： 16.04
+#### Ubuntu系统版本： 16.04 
+
+> Ubuntu 16.04 系统下载地址：[GeekCloud镜像站 Ubuntu镜像](http://mirrors.geekfan.top/rsync/iso/ubuntu-16.04.5-desktop-amd64.iso)
 
 #### NS-3 版本：3.28
 
@@ -89,6 +93,8 @@ chmod 755 * && ./install-ns-3-env.sh
 ```
 
 这个过程也会相当漫长，当你看见最后输出的 Building ns3 ==> OK 时说明你已经成功安装 NS3 ，此时 NS3 已经在当前目录的`source`目录的`ns-3.28`下。
+
+> NS-3 绝对路径：`/root/source/ns-3.28`
 
 测试 NS3：
 
