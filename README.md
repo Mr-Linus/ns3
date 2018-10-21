@@ -11,7 +11,7 @@ NS-3 安装版本：3.28
 
 ### Docker 安装
 
-手写根据官方文档在你的本机或虚拟机上安装Docker，安装流程请参考 [Docker 安装流程](https://note.geekfan.top/2018/06/15/Docker-faq/#%E5%AE%89%E8%A3%85%E3%80%81%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98-8)。
+首先根据官方文档在你的本机或虚拟机上安装Docker，安装流程请参考 [Docker 安装流程](https://note.geekfan.top/2018/06/15/Docker-faq/#%E5%AE%89%E8%A3%85%E3%80%81%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98-8)。
 
 安装完 Docker 的同学可以直接在终端运行以下命令拉取镜像：
 
@@ -65,7 +65,7 @@ sudo su -
 首先将本项目克隆到本地：
 
 ```bash
-git clone https://github.com/Mr-Linus/ns3.git
+cd /root && git clone https://github.com/Mr-Linus/ns3.git
 ```
 
 进入脚本目录：
