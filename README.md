@@ -66,7 +66,7 @@ At time 2.00737s client received 1024 bytes from 10.1.1.2 port 9
 sudo sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
 ```
 
-在执行之前请确保你是root用户，如果不是，请执行下面的命令：
+在执行安装之前请确保你是root用户，如果不是，请执行下面的命令：
 
 ```bash
 sudo su -
