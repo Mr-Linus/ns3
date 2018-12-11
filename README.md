@@ -100,7 +100,7 @@ chmod 755 * && ./install-ns-3-env.sh
 
 这个过程也会相当漫长，当你看见最后输出的 Building ns3 ==> OK 时说明你已经成功安装 NS3 ，此时 NS3 已经在当前目录的`source`目录的`ns-3.28`下。
 
-> NS-3 绝对路径：`/root/source/ns-3.28`
+> NS-3 绝对路径：`/root/ns3/source/ns-3.28`
 
 测试 NS3：
 
